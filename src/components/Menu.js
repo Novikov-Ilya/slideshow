@@ -39,7 +39,7 @@ span {
 }
 `
 
-const CallButton = styled. button`
+const CallButton = styled.button`
 width: 176px;
 height: 48px;
 background-color: #3fc7db;
@@ -66,7 +66,7 @@ class TelNumber extends React.Component {
 }
 
 class Menu extends React.Component {
-    render() {
+    render() {        
         return(
             <Row>
                 <Col lg={3}>

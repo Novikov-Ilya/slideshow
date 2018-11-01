@@ -8,6 +8,7 @@ import styled from 'styled-components';
 import Header from './components/Header';
 import Menu from './components/Menu';
 import Main from './components/Main';
+import ReactDOM from 'react-dom';
 
 const url = process.env.PUBLIC_URL + '/img/bg.png';
 
@@ -53,5 +54,7 @@ class App extends Component {
     );
   }
 }
+
+
 
 export default App;
